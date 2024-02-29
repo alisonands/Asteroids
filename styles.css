@@ -1,0 +1,92 @@
+body {
+    background-color: #040d1b; /* dark navy blue */
+    color: #fff; /* white text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff; /* white text */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+.star {
+    position: fixed;
+    width: 2px;
+    height: 2px;
+    z-index: -1;
+    background: #fff; /* white stars */
+    border-radius: 50%;
+    animation: moveStar linear infinite, fadeStar 3s infinite; /* Add movement and fading effect */
+}
+
+@keyframes moveStar {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(20px, 20px); /* Adjust the amount of movement */
+    }
+}
+
+@keyframes fadeStar {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.meteor {
+    position: absolute;
+    width: 10px;
+    height: 1px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff); 
+    animation: meteor-fall 2s linear infinite;
+}
+
+@keyframes meteor-fall {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
