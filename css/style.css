@@ -24,9 +24,17 @@ header {
     max-width: 10%;
   }
 
-  #planet {
-    position: fixed;
+#planet-container {
+    position: relative;
+    width: 50%;
+    height: 100px;
+    overflow: hidden;
+}
+
+#planet {
+    position: absolute;
     bottom: -325px;
     right: -200px;
     max-width: 40%
+    /* overflow: hidden; */
   }
