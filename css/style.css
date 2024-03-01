@@ -1,7 +1,32 @@
 body {
     background-color: #040d1b; /* dark navy blue */
     color: #fff; /* white text */
-    font-family: Arial, sans-serif;
+    /* font-family: "Courier New", monospace; */
     margin: 0;
     padding: 0;
 }
+
+header {
+    font-family: "montserrat", serif;
+    font-size: 22px;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-stretch: expanded;
+    letter-spacing: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+#astronaut {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    max-width: 10%;
+  }
+
+  #planet {
+    position: fixed;
+    bottom: -325px;
+    right: -200px;
+    max-width: 40%
+  }
