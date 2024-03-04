@@ -37,7 +37,7 @@ d3.json(url).then(function (response) {
   };
 
   const presentTrace = {
-    x: [new Date(2024), new Date(2024)],
+    x: [new Date(), new Date()],
     y: [0, Math.max(...asteroidDistances)],
     mode: 'lines',
     line: {
