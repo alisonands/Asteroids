@@ -34,7 +34,6 @@ header {
     letter-spacing: 10px;
     padding: 20px;
     text-align: center;
-    
 }
 
 .subt{
@@ -49,9 +48,23 @@ header {
     text-align: center;
 }
 
+.stats{
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
+
 div {
     text-align: justify;
   }
+
+.container{
+    background-color: rgba(0, 0, 0, 0.319);
+    color: rgba(0, 0, 0, 0.319);
+    border: 2px solid rgba(255, 255, 255, 0);
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 15px
+}
 
 .plot-container{
     background-color: rgba(0, 0, 0, 0.628);
@@ -59,7 +72,7 @@ div {
     border: 2px solid white;
     text-align: center;
     margin: auto;
-    padding: auto;
+    padding-top: auto;
     height: 600px;
     width: 1200px;
 }
